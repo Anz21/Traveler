@@ -1,0 +1,49 @@
+.glass{
+  background-color: #15b7b9;
+position: absolute;
+top:0;
+left:0;
+width: 40%;
+height: 100%;
+backdrop-filter:blur(10px);
+z-index: 2;
+box-shadow: 10px 0 15px rgba(0,0,0,0.5);
+transition:1s;
+transition-delay: 0s;
+background-color: rgba(255,255,255,0.1);
+border: 2px solid transparent;
+background-clip: border-box;
+}
+
+body{
+  background-image: url(wal.jpg);
+}
+
+
+h2{
+  color:#fff;
+}
+
+p{
+  color:#fff;
+}
+
+h1{
+  color:#fff;
+  text-transform: uppercase;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.stil{
+  display: inline;
+}
+
+h5{
+  font-family: 'Benne', serif;
+}
+
+
+.story{
+  font-size: 30px;
+  font-family: 'Benne', serif;
+}
